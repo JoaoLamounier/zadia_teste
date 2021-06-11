@@ -1,0 +1,32 @@
+#background {
+    background-image: url(tv_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tabela {
+    display: grid;
+    grid-template-columns: 15.8% 68% 16.2%;
+    grid-template-rows: 11% 74% 15%;
+    width: 100vw;
+    height: 100vh;
+}
+.tabela-fora {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.tabela-dentro{
+    background-color: rgba(204, 18, 18, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.tv-padrao{
+
+}
+.tv-menu{
+
+}
