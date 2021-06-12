@@ -1,32 +1,70 @@
 #background {
     background-image: url(tv_background.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
 }
 
 .tabela {
     display: grid;
-    grid-template-columns: 15.8% 68% 16.2%;
-    grid-template-rows: 11% 74% 15%;
+    grid-template-columns: 318px 1360px 325px;
+    grid-template-rows: 112px 766px 248px;
     width: 100vw;
     height: 100vh;
 }
 .tabela-fora {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.tv-padrao-init{
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
-.tabela-dentro{
-    background-color: rgba(204, 18, 18, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+#imgtv{
+    background-image: url(media_0.jpg);
+    background-size: 100%;
+}
+#tvmenu{
+    display: grid;
+}
+.botoesmenu{
     text-align: center;
 }
-.tv-padrao{
-
+#botaofrente{
+    background-image: url(nav1.jpg);
 }
-.tv-menu{
-
+#botaodentro{
+    background-image: url(nav2.jpg);
+}
+#botaotras{
+    background-image: url(nav3.jpg);
+}
+#qrcode{
+    text-align: center;
+}
+#loja{
+    text-align: center;
+}
+#lojadescricao{
+    text-align: center;
+}
+/*.tv-padrao-capo{
+    background-image: url(var(--));
+}
+.tv-menu-capo{
+    display: grid;
+}
+.tv-padrao-dentro{
+    background-image: url();
+}
+.tv-menu-dentro{
+    display: grid;
+}
+.tv-padrao-atras{
+    background-image: url();
+}
+.tv-menu-atras{
+    display: grid;
 }
