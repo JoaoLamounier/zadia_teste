@@ -19,7 +19,6 @@
 .tv-padrao-init{
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 30px;
     text-align: center;
 }
 #tv{
@@ -28,43 +27,58 @@
 }
 #tvmenu{
     display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    background-image: url(backgroundmenu.png);
 }
 .botoes{
     text-align: center;
+    padding: 20px;
+}
+#tvzina{
+    background-image: url(media_0.jpg);
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #botaofrente{
+    background-size: 100%;
     background-image: url(nav1.png);
+    text-align: center;
+    grid-column: 1;
+    grid-row: 3;
 }
 #botaodentro{
+    background-size: 100%;
     background-image: url(nav2.png);
+    text-align: center;
+    grid-column: 2;
+    grid-row: 3;
 }
 #botaoatras{
+    background-size: 100%;
     background-image: url(nav3.png);
+    text-align: center;
+    grid-column: 3;
+    grid-row: 3;
 }
 #qrcode{
+    background-image: url(icon_qrcode.png);
     text-align: center;
+    grid-column: 3;
+    grid-row: 2;
+    background-repeat: no-repeat;
 }
 #loja{
+    background-image: url(icon_cart.png);
     text-align: center;
+    grid-column: 3;
+    grid-row: 1;
+    background-repeat: no-repeat;
 }
 #lojadescricao{
     text-align: center;
-}
-/*.tv-padrao-capo{
-    background-image: url(var(--));
-}
-.tv-menu-capo{
-    display: grid;
-}
-.tv-padrao-dentro{
-    background-image: url();
-}
-.tv-menu-dentro{
-    display: grid;
-}
-.tv-padrao-atras{
-    background-image: url();
-}
-.tv-menu-atras{
-    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 1;
 }
