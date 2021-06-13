@@ -22,24 +22,24 @@
     font-size: 30px;
     text-align: center;
 }
-#imgtv{
+#tv{
     background-image: url(media_0.jpg);
     background-size: 100%;
 }
 #tvmenu{
     display: grid;
 }
-.botoesmenu{
+.botoes{
     text-align: center;
 }
 #botaofrente{
-    background-image: url(nav1.jpg);
+    background-image: url(nav1.png);
 }
 #botaodentro{
-    background-image: url(nav2.jpg);
+    background-image: url(nav2.png);
 }
-#botaotras{
-    background-image: url(nav3.jpg);
+#botaoatras{
+    background-image: url(nav3.png);
 }
 #qrcode{
     text-align: center;
