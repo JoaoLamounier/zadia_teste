@@ -26,7 +26,7 @@
 #tvmenu{
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 453.3px 453.3px 453.3px;
+    grid-template-columns: 445.3px 445.3px 445.3px;
     grid-template-rows: 247.3px 247.3px 247.3px;
     background-image: url(backgroundmenu.png);
 }
