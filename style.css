@@ -16,9 +16,7 @@
     font-size: 30px;
     text-align: center;
 }
-.tv-padrao-init{
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+.tabela-dentro{
     text-align: center;
 }
 #tv{
@@ -28,12 +26,12 @@
 #tvmenu{
     display: grid;
     grid-gap: 10px;
-    padding: 10px;
+    grid-template-columns: 453.3px 453.3px 453.3px;
+    grid-template-rows: 247.3px 247.3px 247.3px;
     background-image: url(backgroundmenu.png);
 }
 .botoes{
     text-align: center;
-    padding: 20px;
 }
 #tvzina{
     background-image: url(media_0.jpg);
